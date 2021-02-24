@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Naga's Website</h1>
+      <p>This is a something that you see very often.</p>
+      <p class="submitMsg">Thanks for Submitting your form.</p>
+      <form action="index.php" method="post">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your Name"
+        />
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Enter Your Age"
+        /><input
+          type="text"
+          name="gender"
+          id="gender"
+          placeholder="Enter Your Gender"
+        /><input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+        /><input
+          type="phone"
+          name="phone"
+          id="phone"
+          placeholder="Enter Your Phone"
+        /><textarea
+          name="desc"
+          id="desc"
+          rows="10"
+          cols="30"
+          placeholder="Enter any other information"
+        ></textarea>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
