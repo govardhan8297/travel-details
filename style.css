@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+  padding: 34px;
+}
+.submitMsg {
+  margin-top: 10px;
+  color: green;
+  font-size: 18px;
+}
+.container h1,
+p {
+  text-align: center;
+}
+input,
+textarea {
+  margin: 22px 0;
+  padding: 12px;
+  font-size: 12px;
+  width: 80%;
+  border: 0.2px solid black;
+  border-radius: 23px;
+  outline: none;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  background-image: url("Cool-Plain-Grey-Background1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  padding: 10px;
+}
