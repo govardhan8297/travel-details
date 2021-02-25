@@ -50,7 +50,7 @@ $con->close();
       <h1>Welcome to Naga's Website</h1>
       <p>This is a something that you see very often.</p>
       <?php
-      if($insert = ==true){
+      if($insert == true){
          echo "<p class='submitMsg'>Thanks for submitting your form.We are happy to see you here.</p>";
       }
       ?>
