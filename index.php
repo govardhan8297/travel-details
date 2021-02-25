@@ -49,9 +49,11 @@ $con->close();
     <div class="container">
       <h1>Welcome to Naga's Website</h1>
       <p>This is a something that you see very often.</p>
-      <?php 
-      if($insert == true){
-       echo "<p class='submitMsg'>Thanks for Submitting your form.</p>"; }?>
+      <?php
+      if($insert = ==true){
+         echo "<p class='submitMsg'>Thanks for submitting your form.We are happy to see you here.</p>";
+      }
+      ?>
       <form action="index.php" method="post">
         <input
           type="text"
