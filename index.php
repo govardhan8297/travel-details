@@ -22,7 +22,7 @@ $sql = "INSERT INTO `trip`.`trip_details` ( `name`, `age`, `gender`, `email`, `p
 VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
 // echo $sql;
 
-if($con->query($sql)== true){
+if($con->query($sql) == true){
     // echo "Succesfully inserted";
     $insert=true;
 }
